@@ -10,7 +10,7 @@ button:hover{
 }
 
 img{
-    animation: rotate 1s infinite ease-in ;
+    animation: rotate 2s infinite linear ;
 }
 @keyframes rotate {
     to{
