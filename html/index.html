@@ -4,17 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="../css/animation.css" />
+    <link rel="stylesheet" href="../css/mensagem.css" />
+    <link rel="stylesheet" href="../css/table.css">
     <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
-    <header>logo</header>
+    <header><img src="../css/img/atomico.png" alt=""></header>
     <main>
-      <section></section>
-      <aside>chat</aside>
+      <section>
+        <textarea cols="30" rows="10"></textarea>
+        <button>enviar</button>
+      </section>
+      <aside>
+        <div class="chat" id="chat">
+          <div class="mensagem">
+            <span class="profile">annonymous</span>
+            <p>Ola viktor</p>
+          </div>
+        </div>
+      </aside>
     </main>
     <footer>
       <ul>
@@ -33,4 +50,5 @@
     </footer>
   </body>
   <script src="../js/script.js"></script>
+  <script src="../js/collectValues.js"></script>
 </html>

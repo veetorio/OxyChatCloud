@@ -1,0 +1,10 @@
+.icons:hover{
+    color: #6f42c1;
+}
+li:hover {
+    padding: 2% 3%;
+    border-color: #6f42c1;
+}
+button:hover{
+    background: #262626b9;
+}

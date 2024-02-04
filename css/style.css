@@ -11,16 +11,49 @@ body{
 }
 header{
     background-color: aqua;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
     height: 10%;
+    width: 100%;
 }
 main{
-    background-color: blueviolet;
     display: grid;
     grid-template-columns: 30% 70%;
     height: 70%;
 }
-main > section {
-    background-color: aquamarine;
+section {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #6f42c1;
+    animation: neonRgb 0.5s infinite alternate;
+}
+aside{
+    border-left: 1px solid #6f42c1;
+    border-bottom:1px solid #6f42c1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: neonRgb 0.5s infinite alternate;
+
+}
+aside > .chat{
+    padding: 2%;
+    overflow: auto;
+    border-radius: 20px;
+    width: 843.109px;
+    height: 379.062px;
+    background-color: rgba(46, 46, 46, 0.572);
+    
+}
+::-webkit-scrollbar {
+    display: none;
 }
 footer{
     display: flex;
@@ -29,13 +62,11 @@ footer{
     height: 20%;
     color: aliceblue;
 }
-.links {
-}
 .animation {
     height: 1%;
     width: 100%;
     border: none;
-    background-color:blueviolet;
+    background-color:#6f42c1;
     animation: neonRgb 0.5s infinite alternate;
 }
 ul {
@@ -58,18 +89,10 @@ li{
     border: 1px solid rgb(52, 52, 52);
     transition: .4s;
 }
-li:hover {
-    padding: 2% 3%;
-    border-color: #6f42c1;
-}
 .icons{
     color: #0c0c0c;
     font-size: 32px;
     transition: .4s;
-}
-.icons:hover{
-    color: #6f42c1;
-
 }
 .created{
     font-size: 12px;
@@ -78,13 +101,10 @@ li:hover {
     text-align: end;
     color:#6f42c1;
 }
-
 @keyframes neonRgb{
     100%{
         box-shadow: 0 0 2px rgb(147, 64, 255);
-        background-color: rgb(120, 37, 255);
     }
 
 }
 
-/* #6f42c1 */
