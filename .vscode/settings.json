@@ -1,4 +1,5 @@
 {
     "html-to-css-autocompletion.triggerCharacters": true,
-    "html-to-css-autocompletion.autocompletionFilesScope": "multi-root"
+    "html-to-css-autocompletion.autocompletionFilesScope": "multi-root",
+    "java.debug.settings.onBuildFailureProceed": true
 }

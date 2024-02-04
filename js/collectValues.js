@@ -13,7 +13,7 @@ btn.addEventListener('click', () => {
     commentBody.style.marginTop = '5%'
     commentBody.append(commentProfile,commentText)
 
-    if(id % 2 === 0){
+    if(id % 2 !== 0){
         chat.append(commentBody)
         commentBody.style.marginLeft = 'auto'
     }else{

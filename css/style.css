@@ -10,12 +10,18 @@ body{
     background-image: linear-gradient( to left, rgb(31, 31, 31),black );
 }
 header{
-    background-color: aqua;
+    background-color: rgb(21, 21, 21);
+    color: #6f42c1;
     padding: 0 2%;
     display: flex;
     align-items: center;
     height: 10%;
     width: 100%;
+}
+header > h1 {
+    display: flex;
+    align-items: center;
+    gap: 5%;
 }
 main{
     display: grid;
@@ -29,19 +35,13 @@ section {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border-bottom: 1px solid #6f42c1;
-    animation: neonRgb 0.5s infinite alternate;
 }
 aside{
-    border-left: 1px solid #6f42c1;
-    border-bottom:1px solid #6f42c1;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: neonRgb 0.5s infinite alternate;
-
 }
 aside > .chat{
     padding: 2%;

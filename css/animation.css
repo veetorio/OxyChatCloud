@@ -8,3 +8,17 @@ li:hover {
 button:hover{
     background: #262626b9;
 }
+
+img{
+    animation: rotate 1s infinite ease-in ;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    
+    }
+    
+}

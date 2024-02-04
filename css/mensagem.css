@@ -19,3 +19,24 @@ p{
     display: flex;
     align-items: flex-start;
 }
+.line1{
+    background-color: #6f42c1;
+    border: none;
+    position: relative;
+    right: 20%;
+    top: 15%;
+    width: 101%;
+    height: 1px;
+    transform: rotate(45deg);
+    
+}
+.line2{
+    background-color: #6f42c1;
+    border: none;
+    position: relative;
+    right: 30%;
+    top: 18.6%;
+    width: 75%;
+    height: 1px;
+    transform: rotate(45deg);
+}
